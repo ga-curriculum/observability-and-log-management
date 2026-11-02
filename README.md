@@ -140,9 +140,9 @@ The model isn't failing; the upstream application sending data to the model is b
 
 > [!NOTE]
 >
-> [**Lab: Monitoring Dashboard Setup**](https://git.generalassemb.ly/ai-systems-engineering-reliability/lab-5-monitoring-dashboard-setup)
+> [**Lab: Monitoring Dashboard Setup**](https://github.com/ga-curriculum/lab-5-monitoring-dashboard-setup)
 > 
-> **Note**: Please refer to the dedicated [**Monitoring Dashboard Setup**](https://git.generalassemb.ly/ai-systems-engineering-reliability/lab-5-monitoring-dashboard-setup) for the complete instructions, `docker-compose.yml` and mock ML service files located within this module's local lab directory to spin up the Prometheus/Grafana stack and the mock service to monitor.
+> **Note**: Please refer to the dedicated [**Monitoring Dashboard Setup**](https://github.com/ga-curriculum/lab-5-monitoring-dashboard-setup) for the complete instructions, `docker-compose.yml` and mock ML service files located within this module's local lab directory to spin up the Prometheus/Grafana stack and the mock service to monitor.
 
 **Important Networking Note:**
 When configuring your Grafana data source to connect to Prometheus within the Docker network, **do not** use `http://localhost:9090`. Containers route by service name, so you must use `http://prometheus:9090` to establish the connection successfully.
